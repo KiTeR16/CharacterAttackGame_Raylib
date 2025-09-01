@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dbe6378e-af9e-4e1c-a85d-68897ea2197d}</ProjectGuid>
-    <RootNamespace>CharacterAttackGame</RootNamespace>
+    <ProjectGuid>{2c538823-3f1a-4dfd-b3a8-be800ffcdda2}</ProjectGuid>
+    <RootNamespace>VSfiles</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,13 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Characters.cpp" />
-    <ClCompile Include="..\..\InputSystem.cpp" />
-    <ClCompile Include="..\..\main.cpp" />
+    <ClCompile Include="..\Characters.cpp" />
+    <ClCompile Include="..\InputSystem.cpp" />
+    <ClCompile Include="..\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Characters.h" />
-    <ClInclude Include="..\..\InputSystem.h" />
+    <ClInclude Include="..\Characters.h" />
+    <ClInclude Include="..\InputSystem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -6,12 +6,12 @@
 
 InputSystem::InputSystem(int dxx, int dyy): dx(dxx), dy(dyy){}
 
-Input()
+void Input()
 {
-    if(kbhit()) 
+    if(_kbhit()) 
     {
     
-        char ch = getch();
+        char ch = _getch();
         ch = tolower(ch); // Convert to lowercase for uniformity
 
         switch(ch) 

@@ -1,0 +1,38 @@
+# --- Visual Studio ---
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+ipch/
+
+# --- VS Code (personal settings; optional to keep) ---
+.vscode/
+
+# --- CMake / Ninja / Make ---
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# --- Compiled / intermediates ---
+*.obj
+*.o
+*.pch
+*.pdb
+*.exp
+*.lib
+*.dll
+*.exe
+*.ilk
+*.log
+
+# --- Others ---
+*.tmp
+*.cache
